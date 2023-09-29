@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import useRestaurantForm from './useRestaurantForm';
-import axios from 'axios'; // Import Axios
+import axios from 'axios'; 
 
 function App() {
   const { formData, handleInputChange, resetForm } = useRestaurantForm();

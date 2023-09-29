@@ -3,6 +3,7 @@ import { useState } from 'react';
 const useRestaurantForm = () => {
     const [formData, setFormData] = useState({ name: '', address: '', contact: '',   dishName: '',
     dishPrice: '',});
+    
 
     const handleInputChange = (e) => {
         const { name, value } = e.target;
