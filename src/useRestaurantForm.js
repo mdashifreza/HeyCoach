@@ -1,8 +1,7 @@
 import { useState } from 'react';
 
 const useRestaurantForm = () => {
-    const [formData, setFormData] = useState({ name: '', address: '', contact: '',   dishName: '',
-    dishPrice: '',});
+    const [formData, setFormData] = useState({ name: '', address: '', contact: '' });
     
 
     const handleInputChange = (e) => {
@@ -11,8 +10,7 @@ const useRestaurantForm = () => {
     };
 
     const resetForm = () => {
-        setFormData({ name: '', address: '', contact: '',  dishName: '',
-        dishPrice: '',});
+        setFormData({ name: '', address: '', contact: ''});
     };
 
     return {
